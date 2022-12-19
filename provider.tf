@@ -17,9 +17,9 @@ provider "azurerm" {
     }
   }
 
-  subscription_id = "9fce9100-efca-49ab-bd1d-68e6953d5ef0"
-  tenant_id       = "f504d38d-1101-4dc0-8320-66d984e00240"
-  client_id = "87126eb8-a8c7-42a9-8785-2f13a896aa96"
+  subscription_id = "9fce9100-*******-68e6953d5ef0"
+  tenant_id       = "f504d38d*********0-66d984e00240"
+  client_id = "87126eb8-a8c***********-2f13a896aa96"
 
 # resource "azurerm_role_assignment" "Storage Account Contributor" {
 #   name               = var.storage_account_contributor
